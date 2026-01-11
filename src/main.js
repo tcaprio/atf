@@ -10,12 +10,12 @@ import { aliases, mdi } from 'vuetify/iconsets/mdi'
 import App from './App.vue'
 import Week from './views/Week.vue'
 import Activities from './views/Activities.vue'
-import History from './views/History.vue'
+// import History from './views/History.vue' // Reserved for future use (e.g., settings migration)
 
 const routes = [
   { path: '/week', component: Week },
   { path: '/activities', component: Activities },
-  { path: '/history', component: History },
+  // { path: '/history', component: History }, // Reserved for future use
   { path: '/', redirect: '/week' }
 ]
 

@@ -119,7 +119,6 @@ const saveSettings = () => {
 
 const navItems = [
   { title: 'Activity Log', path: '/activities', icon: 'mdi-format-list-bulleted' },
-  { title: 'Summary', path: '/week', icon: 'mdi-calendar-week' },
-  { title: 'History', path: '/history', icon: 'mdi-history' }
+  { title: 'Summary', path: '/week', icon: 'mdi-calendar-week' }
 ]
 </script>
